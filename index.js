@@ -31,3 +31,8 @@ const testHandler = function(request, response) {
 const testServer = http.createServer(testHandler)
 testServer.listen(DEFAULT_PORT)
 console.log(`sandbox started on port: ${DEFAULT_PORT}`)
+
+/**
+https://github.com/graphql/graphql-http
+https://graphql.org/graphql-js/constructing-types/
+*/
